@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AMDS Construction</title>
+    <script src="https://kit.fontawesome.com/e674c7fc1d.js" crossorigin="anonymous"></script>
+    <meta name="author" content="Danial Hasan">
+    <meta name="description" content="AMDS Construction. Contact us today!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>         
+
+<body> 
+
+    <header>
+        <nav id="nav" class="nav">
+            <div id="logo" onclick="home()">
+                <h1><a href="index.html" class="link-normal">AMDS</a></h1>
+            </div>
+            <ul id="nav-right" class="nav-right" onclick="mobileMenuNavExit()">
+                <li><a href="#info-container">Services</a></li>
+                <li><a href="#aboutUs-container">About Us</a></li>
+                <li class="nav-button"><a href="#contactUs-header">Contact Us</a></li>
+             </ul>
+             <a class="icon" onclick="toggleMenu(), overlay()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+    <div class="hero-image">
+        <img src="css/Assets/city1.jpg"/>
+    </div>
+
+    <div id="hero-overlay"></div>
+
+    <div id="hero-text">
+        <h1>We provide solutions to <br>problems that arise</h1>
+        <h3>So you don't have to</h3>
+    </div>
+
+    <div id="info-container">
+        <div class="info-children">
+            <div class="info-children-image"></div>
+            <div class="info-children-text">
+                <h2>Basement Repairs and Leak Control</h2>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
+                </h3>
+            </div>
+        </div>
+        <div class="info-children">
+            <div class="info-children-image info-child-2"></div>
+            <div class="info-children-text">
+                <h2>Roof Repairs and Damage Control</h2>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
+                </h3>
+            </div>
+        </div>
+        <div class="info-children">
+            <div class="info-children-image info-child-3"></div>
+            <div class="info-children-text">
+                <h2>Interior Construction</h2>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutUs-container">
+        <div id="aboutUs-image"></div>
+        <div id="aboutUs-text">
+            <h4>About amds construction</h4>
+            <h2>We’re a team of skilled labourers and we love what we do.</h2>
+            <div id="aboutUs-text-icons-container">
+                <div class="aboutUs-text-icon">
+                    <div class="aboutUs-text-icon-image icon1"></div>
+                    <div class="aboutUs-text-icon-text">
+                        <h3>
+                            Excellent Materials
+                        </h3>
+                    </div>
+                </div>
+                <div class="aboutUs-text-icon">
+                    <div class="aboutUs-text-icon-image icon2"></div>
+                    <div class="aboutUs-text-icon-text">
+                        <h3>High Quality Work</h3>
+                    </div>
+                </div>
+                <div class="aboutUs-text-icon">
+                    <div class="aboutUs-text-icon-image icon3"></div>
+                    <div class="aboutUs-text-icon-text">
+                        <h3>Skilled Workforce </h3>
+                    </div>
+                </div>
+                <div class="aboutUs-text-icon">
+                    <div class="aboutUs-text-icon-image icon4"></div>
+                    <div class="aboutUs-text-icon-text">
+                        <h3>Satisfaction Guaranteed</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div id="contactUs-header">
+            <h2>Contact Us</h2>
+            <h4>To ensure prompt service, please fill out all fields.</h4>
+        </div>
+        <div id="contactUs-form-container">
+            <div id="form">
+                <form action="https://formspree.io/mleplyqq" method="POST">
+                    <label>
+                        <input type="text" name="_replyto" placeholder="Your email here...">
+                    </label>
+                    <label>
+                        <textarea name="message" placeholder="Your message here..."></textarea>
+                    </label>
+        
+        
+                    <button type="submit" class="form-button">Send</button>
+                </form>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
