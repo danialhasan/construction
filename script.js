@@ -27,9 +27,8 @@ function mobileMenuNavExit(){
         return;
     }
 }
-
-function overlay(){
-
+function home(){
+    
 }
 
 /*

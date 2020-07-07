@@ -525,10 +525,10 @@ textarea {
 .aboutUs-text-icon-text h3{
   font-size:1.125em;
 }
-  #aboutUs-text h4, #aboutUs-text h2{
+#aboutUs-text h4, #aboutUs-text h2{
     margin-left:24px;
 }
-  #aboutUs-text h2{
+#aboutUs-text h2{
     font-size:1.875em
 } 
 }
@@ -565,6 +565,13 @@ textarea {
     width:100%;
     margin:50px 0px 0px 0px;
   }
+  #aboutUs-text h4{
+    margin:60px 0px 0px 0px;
+}
+#aboutUs-text h2{
+  margin:20px 0px 0px 0px;
+
+}
 }
 @media screen and (max-width: 425px) {
   #info-container{
@@ -592,7 +599,15 @@ textarea {
     margin:50px 0px;
   }
   #aboutUs-text{
-    height:600px;
+    height:550px;
+  }
+  #aboutUs-text h2{
+    width:80%;
+    margin:20px auto;
+  }
+  #aboutUs-text-icons-container{
+    margin:30px 0px 0px 0px;
+
   }
   .info-children:first-of-type > .info-children-image{
     background-image: url("../css/Assets/onsite1.jpg");
@@ -625,17 +640,37 @@ textarea {
     margin:10px auto;
     width:85%;
   }
-
+  .form-button{
+    margin:0px auto;
+    text-align: center;
+  }
   /* .info-child-2,.info-child-3{
 
   } */
 }
+@media screen and (max-width: 320px) {
+  #logo{
+    width:217px;
+  }
+  #logo h1{
+    font-size:40px;
+  }
+  #aboutUs-container{
+    /* height:auto; */
+  }
+  .aboutUs-text-icon{
+    width:125px;
+    height:125px;
+    margin:5px;
+    padding:0;
+  }
+}
 /* 
   TODO
   [] Make website mobile responsive.
-    [] services section (hero) make information elements width 100 , 1 column 3 rows
+    [x] services section (hero) make information elements width 100 , 1 column 3 rows
       [] information: image width 100%, top - text width 100%, bottom
          fix height.
-    [] contact us container/labels width 100, fix padding and margins
+    [x] contact us container/labels width 100, fix padding and margins
     [] icon containers in one row, down to 1/2 column when small enough 
 */
