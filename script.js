@@ -27,9 +27,6 @@ function mobileMenuNavExit(){
         return;
     }
 }
-function home(){
-    
-}
 
 /*
 [x] Lock page scroll when mobile menu is activated, activate page scroll when deactivated. 
